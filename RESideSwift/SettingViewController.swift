@@ -2,8 +2,8 @@
 //  SettingViewController.swift
 //  RESideSwift
 //
-//  Created by FaiFai on 2/21/2559 BE.
-//  Copyright © 2559 miguelicious. All rights reserved.
+//  Created by FaiFai on 2/19/2559 BE.
+//  Copyright © 2559 FaiFai. All rights reserved.
 //
 
 import UIKit

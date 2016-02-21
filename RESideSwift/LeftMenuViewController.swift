@@ -2,8 +2,8 @@
 //  LeftMenuViewController.swift
 //  RESideSwift
 //
-//  Created by miguelicious on 11/25/14.
-//  Copyright (c) 2014 miguelicious. All rights reserved.
+//  Created by FaiFai on 2/16/2559 BE.
+//  Copyright © 2559 FaiFai. All rights reserved.
 //
 
 import UIKit

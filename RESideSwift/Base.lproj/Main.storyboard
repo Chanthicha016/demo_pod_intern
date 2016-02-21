@@ -88,8 +88,8 @@
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
-                                    <outlet property="dataSource" destination="G6V-Ro-3HV" id="ZPz-5v-2e4"/>
-                                    <outlet property="delegate" destination="G6V-Ro-3HV" id="qHa-s8-EGU"/>
+                                    <outlet property="dataSource" destination="G6V-Ro-3HV" id="ge6-GB-HmW"/>
+                                    <outlet property="delegate" destination="G6V-Ro-3HV" id="olB-go-khD"/>
                                 </connections>
                             </tableView>
                         </subviews>

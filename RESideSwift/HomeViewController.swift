@@ -2,39 +2,45 @@
 //  HomeViewController.swift
 //  RESideSwift
 //
-//  Created by miguelicious on 11/24/14.
-//  Copyright (c) 2014 miguelicious. All rights reserved.
+//  Created by FaiFai on 2/16/2559 BE.
+//  Copyright © 2559 FaiFai. All rights reserved.
 //
 
 import UIKit
 import Pulsar
 
-class HomeViewController: UIViewController {
+class HomeViewController: UITableViewController {
     
     var textArray = [String]()
     var textLevel = [String]()
+    
+    var ScentNameArray = [ChangeScentSection]()
+    var ScentSupportData = [String]()
+    var ScentSupportData02 = [String]()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         textArray = ["Papermint","Lemon","Cocoa"]
         textLevel = ["Heavy","Light","Medium"]
         timeInterval = userStartTime
-
+        
+        ScentNameArray = [ChangeScentSection(ScentName: ["N1"] , ScentLevel: ["L1"]),
+                    ChangeScentSection(ScentName: ["N2"] , ScentLevel: ["L2"]),
+                    ChangeScentSection(ScentName: ["N3"] , ScentLevel: ["L3"])]
     }
     
     //table
     @IBOutlet weak var mainTable: UITableView!
     var dataSource:NSMutableArray = NSMutableArray()
     
-    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         return 1
     }
-    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return textArray.count
     }
     
-    @IBOutlet weak var StartStopbnt: CircleButton!
-    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
         let cell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath) as! CustomerCell
         
@@ -44,10 +50,29 @@ class HomeViewController: UIViewController {
         return cell
     }
     
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        
+        let indexPath:NSIndexPath = self.tableView.indexPathForSelectedRow!
+        
+//        let DestViewController = segue.destinationViewController as! ChangeScentViewController
+        
+        
+        
+        var ScentNameArray02 : ChangeScentSection
+      
+        ScentNameArray02 = ScentNameArray[indexPath.row]
+     
+//        DestViewController.ScenDatatName = ScentNameArray02
+        
+        
+
+    }
+    
+    
     //timer
     
     @IBOutlet weak var timerLabel: UILabel!
-    
+    @IBOutlet weak var StartStopbnt: CircleButton!
     var startTime = NSTimeInterval()
     var saveElapsedTime = NSTimeInterval()
     var timer = NSTimer()
@@ -99,6 +124,7 @@ override func didReceiveMemoryWarning() {
     super.didReceiveMemoryWarning()
     // Dispose of any resources that can be recreated.
 }
+    
     
 }
 
