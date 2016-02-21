@@ -58,7 +58,7 @@ class HomeViewController: UITableViewController {
         
         
         
-        var ScentNameArray02 : ChangeScentSection
+//        var ScentNameArray02 : ChangeScentSection
       
         ScentNameArray02 = ScentNameArray[indexPath.row]
      
