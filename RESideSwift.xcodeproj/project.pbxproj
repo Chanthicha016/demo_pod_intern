@@ -1,0 +1,659 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A890316404787DBAEF930765 /* Pods_RESideSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDB551520A5F9DDDEBD2DC0 /* Pods_RESideSwiftTests.framework */; };
+		B786123C1C79DB8D001E5F5C /* CustomerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78612391C79DB8D001E5F5C /* CustomerCell.swift */; };
+		B786123D1C79DB8D001E5F5C /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B786123A1C79DB8D001E5F5C /* CircleButton.swift */; };
+		B786123E1C79DB8D001E5F5C /* UIButton+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B786123B1C79DB8D001E5F5C /* UIButton+Theme.swift */; };
+		B78612431C79F748001E5F5C /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B78612401C79F748001E5F5C /* bg.jpg */; };
+		B78612441C79F748001E5F5C /* backback.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B78612411C79F748001E5F5C /* backback.jpg */; };
+		B78612451C79F748001E5F5C /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B78612421C79F748001E5F5C /* background.jpg */; };
+		B78612471C79F84D001E5F5C /* bbg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B78612461C79F84D001E5F5C /* bbg.jpg */; };
+		B78612491C79FC85001E5F5C /* StoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78612481C79FC85001E5F5C /* StoreViewController.swift */; };
+		B786124B1C79FE5F001E5F5C /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B786124A1C79FE5F001E5F5C /* SettingViewController.swift */; };
+		B786124F1C7A0CD9001E5F5C /* ChangeScentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B786124E1C7A0CD9001E5F5C /* ChangeScentViewController.swift */; };
+		B78612531C7A28DE001E5F5C /* menu1112.png in Resources */ = {isa = PBXBuildFile; fileRef = B78612521C7A28DE001E5F5C /* menu1112.png */; };
+		CB4C1E5E1A2449AA00613FC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4C1E5D1A2449A900613FC6 /* AppDelegate.swift */; };
+		CB4C1E631A2449AA00613FC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB4C1E611A2449AA00613FC6 /* Main.storyboard */; };
+		CB4C1E651A2449AA00613FC6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB4C1E641A2449AA00613FC6 /* Images.xcassets */; };
+		CB4C1E681A2449AA00613FC6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB4C1E661A2449AA00613FC6 /* LaunchScreen.xib */; };
+		CB4C1E741A2449AA00613FC6 /* RESideSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4C1E731A2449AA00613FC6 /* RESideSwiftTests.swift */; };
+		CB4C1E881A2449DB00613FC6 /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4C1E831A2449DB00613FC6 /* RECommonFunctions.m */; };
+		CB4C1E891A2449DB00613FC6 /* RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4C1E851A2449DB00613FC6 /* RESideMenu.m */; };
+		CB4C1E8A1A2449DB00613FC6 /* UIViewController+RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4C1E871A2449DB00613FC6 /* UIViewController+RESideMenu.m */; };
+		CB4C1E8F1A244CC100613FC6 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4C1E8E1A244CC100613FC6 /* RootViewController.swift */; };
+		CB4C1E911A24508A00613FC6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4C1E901A24508A00613FC6 /* HomeViewController.swift */; };
+		CB4C1E931A24529000613FC6 /* LeftMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4C1E921A24529000613FC6 /* LeftMenuViewController.swift */; };
+		F7FE74AAFFB6EE656AEE343E /* Pods_RESideSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8ADFFAC681D8B6A7DD1569A /* Pods_RESideSwift.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB4C1E6E1A2449AA00613FC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB4C1E501A2449A900613FC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB4C1E571A2449A900613FC6;
+			remoteInfo = RESideSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6E98F12CDABD641BBE0F8C61 /* Pods-RESideSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RESideSwiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RESideSwiftTests/Pods-RESideSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		6F6127B13A4100E66182115C /* Pods-RESideSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RESideSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RESideSwift/Pods-RESideSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		B78612391C79DB8D001E5F5C /* CustomerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerCell.swift; sourceTree = "<group>"; };
+		B786123A1C79DB8D001E5F5C /* CircleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
+		B786123B1C79DB8D001E5F5C /* UIButton+Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Theme.swift"; sourceTree = "<group>"; };
+		B78612401C79F748001E5F5C /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
+		B78612411C79F748001E5F5C /* backback.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backback.jpg; sourceTree = "<group>"; };
+		B78612421C79F748001E5F5C /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		B78612461C79F84D001E5F5C /* bbg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bbg.jpg; sourceTree = "<group>"; };
+		B78612481C79FC85001E5F5C /* StoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreViewController.swift; sourceTree = "<group>"; };
+		B786124A1C79FE5F001E5F5C /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		B786124E1C7A0CD9001E5F5C /* ChangeScentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeScentViewController.swift; sourceTree = "<group>"; };
+		B78612521C7A28DE001E5F5C /* menu1112.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu1112.png; sourceTree = "<group>"; };
+		C7254D56C4D8ECCADDAF94F7 /* Pods-RESideSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RESideSwiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RESideSwiftTests/Pods-RESideSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CB4C1E581A2449A900613FC6 /* RESideSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RESideSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB4C1E5C1A2449A900613FC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB4C1E5D1A2449A900613FC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CB4C1E621A2449AA00613FC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB4C1E641A2449AA00613FC6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CB4C1E671A2449AA00613FC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CB4C1E6D1A2449AA00613FC6 /* RESideSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RESideSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB4C1E721A2449AA00613FC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB4C1E731A2449AA00613FC6 /* RESideSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RESideSwiftTests.swift; sourceTree = "<group>"; };
+		CB4C1E7D1A2449C600613FC6 /* RESideSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RESideSwift-Bridging-Header.h"; sourceTree = "<group>"; };
+		CB4C1E821A2449DB00613FC6 /* RECommonFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RECommonFunctions.h; sourceTree = "<group>"; };
+		CB4C1E831A2449DB00613FC6 /* RECommonFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RECommonFunctions.m; sourceTree = "<group>"; };
+		CB4C1E841A2449DB00613FC6 /* RESideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RESideMenu.h; sourceTree = "<group>"; };
+		CB4C1E851A2449DB00613FC6 /* RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RESideMenu.m; sourceTree = "<group>"; };
+		CB4C1E861A2449DB00613FC6 /* UIViewController+RESideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RESideMenu.h"; sourceTree = "<group>"; };
+		CB4C1E871A2449DB00613FC6 /* UIViewController+RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RESideMenu.m"; sourceTree = "<group>"; };
+		CB4C1E8E1A244CC100613FC6 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		CB4C1E901A24508A00613FC6 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CB4C1E921A24529000613FC6 /* LeftMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftMenuViewController.swift; sourceTree = "<group>"; };
+		CEDB551520A5F9DDDEBD2DC0 /* Pods_RESideSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RESideSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8ADFFAC681D8B6A7DD1569A /* Pods_RESideSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RESideSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1E65536CDDA59D9CBF5CAA8 /* Pods-RESideSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RESideSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-RESideSwift/Pods-RESideSwift.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB4C1E551A2449A900613FC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7FE74AAFFB6EE656AEE343E /* Pods_RESideSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB4C1E6A1A2449AA00613FC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A890316404787DBAEF930765 /* Pods_RESideSwiftTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		056D00F105CB424D4E150474 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6F6127B13A4100E66182115C /* Pods-RESideSwift.debug.xcconfig */,
+				F1E65536CDDA59D9CBF5CAA8 /* Pods-RESideSwift.release.xcconfig */,
+				C7254D56C4D8ECCADDAF94F7 /* Pods-RESideSwiftTests.debug.xcconfig */,
+				6E98F12CDABD641BBE0F8C61 /* Pods-RESideSwiftTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4F5959D3C90B23234F1D8FE1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8ADFFAC681D8B6A7DD1569A /* Pods_RESideSwift.framework */,
+				CEDB551520A5F9DDDEBD2DC0 /* Pods_RESideSwiftTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B786123F1C79F73A001E5F5C /* image */ = {
+			isa = PBXGroup;
+			children = (
+				B78612401C79F748001E5F5C /* bg.jpg */,
+				B78612461C79F84D001E5F5C /* bbg.jpg */,
+				B78612411C79F748001E5F5C /* backback.jpg */,
+				B78612521C7A28DE001E5F5C /* menu1112.png */,
+				B78612421C79F748001E5F5C /* background.jpg */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+		CB4C1E4F1A2449A900613FC6 = {
+			isa = PBXGroup;
+			children = (
+				CB4C1E811A2449DB00613FC6 /* RESideMenu */,
+				CB4C1E5A1A2449A900613FC6 /* RESideSwift */,
+				CB4C1E701A2449AA00613FC6 /* RESideSwiftTests */,
+				CB4C1E591A2449A900613FC6 /* Products */,
+				056D00F105CB424D4E150474 /* Pods */,
+				4F5959D3C90B23234F1D8FE1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CB4C1E591A2449A900613FC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB4C1E581A2449A900613FC6 /* RESideSwift.app */,
+				CB4C1E6D1A2449AA00613FC6 /* RESideSwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB4C1E5A1A2449A900613FC6 /* RESideSwift */ = {
+			isa = PBXGroup;
+			children = (
+				B786123F1C79F73A001E5F5C /* image */,
+				CB4C1E5D1A2449A900613FC6 /* AppDelegate.swift */,
+				CB4C1E8E1A244CC100613FC6 /* RootViewController.swift */,
+				CB4C1E901A24508A00613FC6 /* HomeViewController.swift */,
+				B78612481C79FC85001E5F5C /* StoreViewController.swift */,
+				B786124A1C79FE5F001E5F5C /* SettingViewController.swift */,
+				B786124E1C7A0CD9001E5F5C /* ChangeScentViewController.swift */,
+				CB4C1E921A24529000613FC6 /* LeftMenuViewController.swift */,
+				B78612391C79DB8D001E5F5C /* CustomerCell.swift */,
+				B786123A1C79DB8D001E5F5C /* CircleButton.swift */,
+				B786123B1C79DB8D001E5F5C /* UIButton+Theme.swift */,
+				CB4C1E611A2449AA00613FC6 /* Main.storyboard */,
+				CB4C1E641A2449AA00613FC6 /* Images.xcassets */,
+				CB4C1E661A2449AA00613FC6 /* LaunchScreen.xib */,
+				CB4C1E5B1A2449A900613FC6 /* Supporting Files */,
+				CB4C1E7D1A2449C600613FC6 /* RESideSwift-Bridging-Header.h */,
+			);
+			path = RESideSwift;
+			sourceTree = "<group>";
+		};
+		CB4C1E5B1A2449A900613FC6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB4C1E5C1A2449A900613FC6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB4C1E701A2449AA00613FC6 /* RESideSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB4C1E731A2449AA00613FC6 /* RESideSwiftTests.swift */,
+				CB4C1E711A2449AA00613FC6 /* Supporting Files */,
+			);
+			path = RESideSwiftTests;
+			sourceTree = "<group>";
+		};
+		CB4C1E711A2449AA00613FC6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB4C1E721A2449AA00613FC6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB4C1E811A2449DB00613FC6 /* RESideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				CB4C1E821A2449DB00613FC6 /* RECommonFunctions.h */,
+				CB4C1E831A2449DB00613FC6 /* RECommonFunctions.m */,
+				CB4C1E841A2449DB00613FC6 /* RESideMenu.h */,
+				CB4C1E851A2449DB00613FC6 /* RESideMenu.m */,
+				CB4C1E861A2449DB00613FC6 /* UIViewController+RESideMenu.h */,
+				CB4C1E871A2449DB00613FC6 /* UIViewController+RESideMenu.m */,
+			);
+			path = RESideMenu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB4C1E571A2449A900613FC6 /* RESideSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB4C1E771A2449AA00613FC6 /* Build configuration list for PBXNativeTarget "RESideSwift" */;
+			buildPhases = (
+				9A3509AD670764F0DCA8332D /* Check Pods Manifest.lock */,
+				CB4C1E541A2449A900613FC6 /* Sources */,
+				CB4C1E551A2449A900613FC6 /* Frameworks */,
+				CB4C1E561A2449A900613FC6 /* Resources */,
+				AA7BE1BBD32865789912D740 /* Embed Pods Frameworks */,
+				A80B4593A5C31EFA07736A87 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RESideSwift;
+			productName = RESideSwift;
+			productReference = CB4C1E581A2449A900613FC6 /* RESideSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB4C1E6C1A2449AA00613FC6 /* RESideSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB4C1E7A1A2449AA00613FC6 /* Build configuration list for PBXNativeTarget "RESideSwiftTests" */;
+			buildPhases = (
+				B4F60721B73E8C6BCA382FDF /* Check Pods Manifest.lock */,
+				CB4C1E691A2449AA00613FC6 /* Sources */,
+				CB4C1E6A1A2449AA00613FC6 /* Frameworks */,
+				CB4C1E6B1A2449AA00613FC6 /* Resources */,
+				A996C063ADB33D625DDDCF7E /* Embed Pods Frameworks */,
+				6EB081A4B052CA2AA9CD5118 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB4C1E6F1A2449AA00613FC6 /* PBXTargetDependency */,
+			);
+			name = RESideSwiftTests;
+			productName = RESideSwiftTests;
+			productReference = CB4C1E6D1A2449AA00613FC6 /* RESideSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB4C1E501A2449A900613FC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0720;
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = miguelicious;
+				TargetAttributes = {
+					CB4C1E571A2449A900613FC6 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					CB4C1E6C1A2449AA00613FC6 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = CB4C1E571A2449A900613FC6;
+					};
+				};
+			};
+			buildConfigurationList = CB4C1E531A2449A900613FC6 /* Build configuration list for PBXProject "RESideSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB4C1E4F1A2449A900613FC6;
+			productRefGroup = CB4C1E591A2449A900613FC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB4C1E571A2449A900613FC6 /* RESideSwift */,
+				CB4C1E6C1A2449AA00613FC6 /* RESideSwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB4C1E561A2449A900613FC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB4C1E631A2449AA00613FC6 /* Main.storyboard in Resources */,
+				B78612531C7A28DE001E5F5C /* menu1112.png in Resources */,
+				B78612441C79F748001E5F5C /* backback.jpg in Resources */,
+				CB4C1E681A2449AA00613FC6 /* LaunchScreen.xib in Resources */,
+				B78612471C79F84D001E5F5C /* bbg.jpg in Resources */,
+				B78612451C79F748001E5F5C /* background.jpg in Resources */,
+				B78612431C79F748001E5F5C /* bg.jpg in Resources */,
+				CB4C1E651A2449AA00613FC6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB4C1E6B1A2449AA00613FC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6EB081A4B052CA2AA9CD5118 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RESideSwiftTests/Pods-RESideSwiftTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A3509AD670764F0DCA8332D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A80B4593A5C31EFA07736A87 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RESideSwift/Pods-RESideSwift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A996C063ADB33D625DDDCF7E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RESideSwiftTests/Pods-RESideSwiftTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA7BE1BBD32865789912D740 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RESideSwift/Pods-RESideSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4F60721B73E8C6BCA382FDF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB4C1E541A2449A900613FC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB4C1E891A2449DB00613FC6 /* RESideMenu.m in Sources */,
+				CB4C1E8F1A244CC100613FC6 /* RootViewController.swift in Sources */,
+				B78612491C79FC85001E5F5C /* StoreViewController.swift in Sources */,
+				CB4C1E8A1A2449DB00613FC6 /* UIViewController+RESideMenu.m in Sources */,
+				B786123D1C79DB8D001E5F5C /* CircleButton.swift in Sources */,
+				CB4C1E881A2449DB00613FC6 /* RECommonFunctions.m in Sources */,
+				CB4C1E5E1A2449AA00613FC6 /* AppDelegate.swift in Sources */,
+				CB4C1E931A24529000613FC6 /* LeftMenuViewController.swift in Sources */,
+				CB4C1E911A24508A00613FC6 /* HomeViewController.swift in Sources */,
+				B786123C1C79DB8D001E5F5C /* CustomerCell.swift in Sources */,
+				B786123E1C79DB8D001E5F5C /* UIButton+Theme.swift in Sources */,
+				B786124F1C7A0CD9001E5F5C /* ChangeScentViewController.swift in Sources */,
+				B786124B1C79FE5F001E5F5C /* SettingViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB4C1E691A2449AA00613FC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB4C1E741A2449AA00613FC6 /* RESideSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB4C1E6F1A2449AA00613FC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB4C1E571A2449A900613FC6 /* RESideSwift */;
+			targetProxy = CB4C1E6E1A2449AA00613FC6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB4C1E611A2449AA00613FC6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB4C1E621A2449AA00613FC6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB4C1E661A2449AA00613FC6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB4C1E671A2449AA00613FC6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB4C1E751A2449AA00613FC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB4C1E761A2449AA00613FC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB4C1E781A2449AA00613FC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F6127B13A4100E66182115C /* Pods-RESideSwift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = RESideSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "us.miguelicio.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RESideSwift/RESideSwift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CB4C1E791A2449AA00613FC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1E65536CDDA59D9CBF5CAA8 /* Pods-RESideSwift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = RESideSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "us.miguelicio.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RESideSwift/RESideSwift-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		CB4C1E7B1A2449AA00613FC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7254D56C4D8ECCADDAF94F7 /* Pods-RESideSwiftTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RESideSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "us.miguelicio.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RESideSwift.app/RESideSwift";
+			};
+			name = Debug;
+		};
+		CB4C1E7C1A2449AA00613FC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E98F12CDABD641BBE0F8C61 /* Pods-RESideSwiftTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RESideSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "us.miguelicio.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RESideSwift.app/RESideSwift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB4C1E531A2449A900613FC6 /* Build configuration list for PBXProject "RESideSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB4C1E751A2449AA00613FC6 /* Debug */,
+				CB4C1E761A2449AA00613FC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB4C1E771A2449AA00613FC6 /* Build configuration list for PBXNativeTarget "RESideSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB4C1E781A2449AA00613FC6 /* Debug */,
+				CB4C1E791A2449AA00613FC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB4C1E7A1A2449AA00613FC6 /* Build configuration list for PBXNativeTarget "RESideSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB4C1E7B1A2449AA00613FC6 /* Debug */,
+				CB4C1E7C1A2449AA00613FC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB4C1E501A2449A900613FC6 /* Project object */;
+}

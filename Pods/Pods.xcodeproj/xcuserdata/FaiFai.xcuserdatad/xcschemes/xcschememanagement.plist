@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Eureka.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-RESideSwift.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-RESideSwiftTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pulsar.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>RESideMenu.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>040C6B7B8C454BCD5D7C57DAC66C6946</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>31EF08F3444DCD2B169D92269C5BCD3D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4CD8BBE686374AE523AF3C6828185C83</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AF4D0F9B023C385206B865EB1026BE0B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F89148928AAC6872B050E828C9FBF97B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

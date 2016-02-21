@@ -1,0 +1,1035 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		008307EA55F84C8512852B442868BF5C /* Pods-RESideSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 770B46C7463F518DB4D1A7C6FC1BEE1B /* Pods-RESideSwift-dummy.m */; };
+		05882A1EB184ECA356EE893E722C7878 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE4167F63636565722E5400056946C02 /* Foundation.framework */; };
+		0B99166FA47E0681292C569105878EF3 /* UIViewController+RESideMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = A4549AEB2F2431C4E55B168B35FC1871 /* UIViewController+RESideMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1740C04CD9E9C7DF75057C425011D55B /* RESideMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = B40FF63800D86ABB4E777ED90543ED65 /* RESideMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B339F1270B04712DDC57639D3E858EC /* Pulsar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AB643B64AA84A6970D9252D46426475 /* Pulsar-dummy.m */; };
+		32BC28F2D8F762BB77955237D0B1733A /* Controllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9208B373C5A691D68A46D585AD97C45 /* Controllers.swift */; };
+		376DCCF04020C1BF909E1C9434160EC9 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F501037D4FF0844CDD84E2D18F93095 /* Helpers.swift */; };
+		4CC8D349E1F05E10C3FBEB82314971FE /* Cells.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F5231CE3EA0C2A088B730CA228A7B5 /* Cells.swift */; };
+		5468FA3766215B346E3728A6905A31A2 /* RESideMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE037DA00E391DBB61A905CBC3828378 /* RESideMenu-dummy.m */; };
+		7517A4E70A27FBDD58D8ED9FD3DF36AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE4167F63636565722E5400056946C02 /* Foundation.framework */; };
+		79B08EFEF4B3CB8168483DC047BC8F24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE4167F63636565722E5400056946C02 /* Foundation.framework */; };
+		87A8227AB5CCEF7848A37B2240A6DADC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D535ADC5B614C5832BBC04C21A9411A0 /* QuartzCore.framework */; };
+		8E31CA60C156F55B93DB14E43D296396 /* Pods-RESideSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D7A0A289AC2FF49DCCC8BF90A8A8B7A /* Pods-RESideSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94026EE895026B940FB818A7E6538B50 /* Rows.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02B6A216771AAD58A863C30B50205BF /* Rows.swift */; };
+		9F55540302E9D0F8DBE8C934DCF64838 /* Eureka-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E64AF61C30935AE7AE0C631193E2F1B4 /* Eureka-dummy.m */; };
+		A38B184CA7E33092C7E94F488E0EE11C /* CALayer+Pulsar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C137F2368070C0BFDA08E580265C8A /* CALayer+Pulsar.swift */; };
+		A54D8858903D21EB85EDBE83A1B2DF7F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F7CC788C37999CEDD14708117BEC018 /* UIKit.framework */; };
+		A7A5214D55F3D6E2460B428B43FE552E /* UIViewController+RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 410212AEE524AAE6DB7E6A560F4ACA86 /* UIViewController+RESideMenu.m */; };
+		ACB941E434860F9AA02E519ABB5FCF50 /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C871CF18FFEE31D79F3EFD98C77C2E /* RECommonFunctions.m */; };
+		AEEADC16AEC076FBFB431955EDB13E84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE4167F63636565722E5400056946C02 /* Foundation.framework */; };
+		BBFF81E4345570E271F04B084810CC7A /* Pods-RESideSwiftTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 77CC7C1497571BA6C9C7F3B814DB6FDE /* Pods-RESideSwiftTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC9B86CEC9854996E2DE962716B842B2 /* Pulsar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C932771917FC949920425E21EFDF10C /* Pulsar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD764CC24DE381F02ACDD078B9B396AF /* RESideMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D737B4099E5125601AFBDF003B3B9FC /* RESideMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD4A868C3E802768D1C5E4D1AA9F8CC4 /* Pods-RESideSwiftTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E86B87253596D502AB72300C6071EC5E /* Pods-RESideSwiftTests-dummy.m */; };
+		D2B89FE73AD36B866DF51C59CF9207DE /* RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 85856897F7CE2D5486163BAAF1760ABC /* RESideMenu.m */; };
+		E01B988AB12EC5F9B494B977456F043C /* RECommonFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = 47F112CAD39A9422E612CE285D58D4EA /* RECommonFunctions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E52D5180B8080C290DB1BE94C2B97172 /* Eureka-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 25D334263BACC4CFECBB4E4128A94EB5 /* Eureka-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA51795F9D958DA5B166877A0E655C25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE4167F63636565722E5400056946C02 /* Foundation.framework */; };
+		F4549889D2DD51FD242EF19E8DE29A7A /* Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23728B2FBDB21DAB7FFB97AACEE2BCA0 /* Core.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		276CB827326EDB318B0DC7C78558AFE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 040C6B7B8C454BCD5D7C57DAC66C6946;
+			remoteInfo = RESideMenu;
+		};
+		5DD9EF21B28BBC08F248C1497E0F9A55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F89148928AAC6872B050E828C9FBF97B;
+			remoteInfo = Pulsar;
+		};
+		A26458BCBE89A20DAF4AD3F93581128E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31EF08F3444DCD2B169D92269C5BCD3D;
+			remoteInfo = Eureka;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04022FD72BD9A144BDB9692F5CEED3E9 /* Pulsar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pulsar.xcconfig; sourceTree = "<group>"; };
+		06B488F7F1289D8FBC83FB905F0D901B /* Pods-RESideSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-RESideSwift.modulemap"; sourceTree = "<group>"; };
+		08F152FFE818EE9EBD48DBE51743E1B8 /* Pods-RESideSwift-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RESideSwift-acknowledgements.plist"; sourceTree = "<group>"; };
+		0D95291992031AA73329BD1A96C1918F /* Pods-RESideSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RESideSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		10243FB0B6C4D4A893F989B9B41F682C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12AA50C698196C33D3270F3818E23048 /* Pulsar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Pulsar.modulemap; sourceTree = "<group>"; };
+		142C91760DEF2C5262EE6FC94D8377C4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2164B2D70C343861926FE8E7CB9913D7 /* Eureka.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Eureka.xcconfig; sourceTree = "<group>"; };
+		23728B2FBDB21DAB7FFB97AACEE2BCA0 /* Core.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Core.swift; path = Source/Core.swift; sourceTree = "<group>"; };
+		244EBF44B61BFD4FE7D7C2652A6D32A6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24EC62DED5F18CB1E4D22BA3E8166168 /* Eureka.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Eureka.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25A1B6ED10E64D4DAF82854FA89FE9F0 /* Pods-RESideSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RESideSwift.release.xcconfig"; sourceTree = "<group>"; };
+		25D334263BACC4CFECBB4E4128A94EB5 /* Eureka-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Eureka-umbrella.h"; sourceTree = "<group>"; };
+		267E90D2F3F32D1AF765C47F62D741FE /* Pods_RESideSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RESideSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		31AECC15AB8FED9E6EA11C93E768F34C /* Pods-RESideSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RESideSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		363476F5F41D0EAF56297657B211335B /* Eureka.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Eureka.modulemap; sourceTree = "<group>"; };
+		3CA693125A5EF43A3377DA99F54C3715 /* Pods-RESideSwift-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RESideSwift-frameworks.sh"; sourceTree = "<group>"; };
+		3D4679B958CE18A9997F78F8C9373098 /* Pulsar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pulsar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D7A0A289AC2FF49DCCC8BF90A8A8B7A /* Pods-RESideSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RESideSwift-umbrella.h"; sourceTree = "<group>"; };
+		410212AEE524AAE6DB7E6A560F4ACA86 /* UIViewController+RESideMenu.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+RESideMenu.m"; path = "RESideMenu/UIViewController+RESideMenu.m"; sourceTree = "<group>"; };
+		440681E9D0D6213CB16E6FC116C7CC2C /* RESideMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RESideMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47F112CAD39A9422E612CE285D58D4EA /* RECommonFunctions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RECommonFunctions.h; path = RESideMenu/RECommonFunctions.h; sourceTree = "<group>"; };
+		4F7CC788C37999CEDD14708117BEC018 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		53D0676957D65A92E2DBB4849C5D71CF /* Pods-RESideSwift-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RESideSwift-acknowledgements.markdown"; sourceTree = "<group>"; };
+		629D2C14E29C5D4AC6203F666E125FB6 /* RESideMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = RESideMenu.modulemap; sourceTree = "<group>"; };
+		68C871CF18FFEE31D79F3EFD98C77C2E /* RECommonFunctions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RECommonFunctions.m; path = RESideMenu/RECommonFunctions.m; sourceTree = "<group>"; };
+		68FC9BF15B156C2F9BE59B5E0B77BFA3 /* Pods-RESideSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RESideSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6D737B4099E5125601AFBDF003B3B9FC /* RESideMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RESideMenu-umbrella.h"; sourceTree = "<group>"; };
+		770B46C7463F518DB4D1A7C6FC1BEE1B /* Pods-RESideSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RESideSwift-dummy.m"; sourceTree = "<group>"; };
+		77CC7C1497571BA6C9C7F3B814DB6FDE /* Pods-RESideSwiftTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RESideSwiftTests-umbrella.h"; sourceTree = "<group>"; };
+		7AB643B64AA84A6970D9252D46426475 /* Pulsar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pulsar-dummy.m"; sourceTree = "<group>"; };
+		7DFCE7ADA70B10E1A71D9B76FA0A6F45 /* Pods_RESideSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RESideSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E03A82D02A132FEEAD1FAD1EAFCA4D9 /* Eureka-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Eureka-prefix.pch"; sourceTree = "<group>"; };
+		83CD6DA8F6F6F2059DCD0C44127B6054 /* Pods-RESideSwiftTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-RESideSwiftTests.modulemap"; sourceTree = "<group>"; };
+		85856897F7CE2D5486163BAAF1760ABC /* RESideMenu.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RESideMenu.m; path = RESideMenu/RESideMenu.m; sourceTree = "<group>"; };
+		8B800CE4B532AB9EAA6B0975D675A1E9 /* RESideMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RESideMenu-prefix.pch"; sourceTree = "<group>"; };
+		8B98FDB57E2DA289EDCA7835802C08E1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9183D21891A89C09AC67913E272256F1 /* Pulsar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pulsar-prefix.pch"; sourceTree = "<group>"; };
+		9331AE043F0115335D41969CC0C55D49 /* Pods-RESideSwiftTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RESideSwiftTests-frameworks.sh"; sourceTree = "<group>"; };
+		95C34C180ABB4E9DBD2A17949C8C1DAE /* Pods-RESideSwiftTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RESideSwiftTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9C932771917FC949920425E21EFDF10C /* Pulsar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pulsar-umbrella.h"; sourceTree = "<group>"; };
+		9F501037D4FF0844CDD84E2D18F93095 /* Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Helpers.swift; path = Source/Helpers.swift; sourceTree = "<group>"; };
+		A4549AEB2F2431C4E55B168B35FC1871 /* UIViewController+RESideMenu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+RESideMenu.h"; path = "RESideMenu/UIViewController+RESideMenu.h"; sourceTree = "<group>"; };
+		A6E75DF3B938A46F73AB0FC74C35AFEA /* Pods-RESideSwift-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RESideSwift-resources.sh"; sourceTree = "<group>"; };
+		AA0E47436A506A316565C112A7A1E804 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3C137F2368070C0BFDA08E580265C8A /* CALayer+Pulsar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CALayer+Pulsar.swift"; path = "Pulsar/Classes/CALayer+Pulsar.swift"; sourceTree = "<group>"; };
+		B40FF63800D86ABB4E777ED90543ED65 /* RESideMenu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RESideMenu.h; path = RESideMenu/RESideMenu.h; sourceTree = "<group>"; };
+		B967A9AD8152C791A2CBC3D6EE0DE9CD /* RESideMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RESideMenu.xcconfig; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BE037DA00E391DBB61A905CBC3828378 /* RESideMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RESideMenu-dummy.m"; sourceTree = "<group>"; };
+		C2F5231CE3EA0C2A088B730CA228A7B5 /* Cells.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cells.swift; path = Source/Cells.swift; sourceTree = "<group>"; };
+		CE8B97DB88B7838AD25BB4C6BCE188A7 /* Pods-RESideSwiftTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RESideSwiftTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D535ADC5B614C5832BBC04C21A9411A0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		DE4167F63636565722E5400056946C02 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E64AF61C30935AE7AE0C631193E2F1B4 /* Eureka-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Eureka-dummy.m"; sourceTree = "<group>"; };
+		E86B87253596D502AB72300C6071EC5E /* Pods-RESideSwiftTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RESideSwiftTests-dummy.m"; sourceTree = "<group>"; };
+		F02B6A216771AAD58A863C30B50205BF /* Rows.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Rows.swift; path = Source/Rows.swift; sourceTree = "<group>"; };
+		F9208B373C5A691D68A46D585AD97C45 /* Controllers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Controllers.swift; path = Source/Controllers.swift; sourceTree = "<group>"; };
+		F924AB1A64371AA2B66882CB9374B3E0 /* Pods-RESideSwiftTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RESideSwiftTests-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18302224159023F187810A067F6C1CB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05882A1EB184ECA356EE893E722C7878 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42A840010D6BAC84EAD9A3FC458280D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7517A4E70A27FBDD58D8ED9FD3DF36AB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6272A03F7DF34E34EFDDAEF314C41754 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA51795F9D958DA5B166877A0E655C25 /* Foundation.framework in Frameworks */,
+				87A8227AB5CCEF7848A37B2240A6DADC /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		923199D1A306433CB96562E7D537FC26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79B08EFEF4B3CB8168483DC047BC8F24 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD02C174EF4E9DFDD57459A0C1F42C14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEEADC16AEC076FBFB431955EDB13E84 /* Foundation.framework in Frameworks */,
+				A54D8858903D21EB85EDBE83A1B2DF7F /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04F7CC343764667D3EDB32102171889C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24EC62DED5F18CB1E4D22BA3E8166168 /* Eureka.framework */,
+				267E90D2F3F32D1AF765C47F62D741FE /* Pods_RESideSwift.framework */,
+				7DFCE7ADA70B10E1A71D9B76FA0A6F45 /* Pods_RESideSwiftTests.framework */,
+				3D4679B958CE18A9997F78F8C9373098 /* Pulsar.framework */,
+				440681E9D0D6213CB16E6FC116C7CC2C /* RESideMenu.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E3A779251FCE6F8A18AEFA49C805C08 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				363476F5F41D0EAF56297657B211335B /* Eureka.modulemap */,
+				2164B2D70C343861926FE8E7CB9913D7 /* Eureka.xcconfig */,
+				E64AF61C30935AE7AE0C631193E2F1B4 /* Eureka-dummy.m */,
+				7E03A82D02A132FEEAD1FAD1EAFCA4D9 /* Eureka-prefix.pch */,
+				25D334263BACC4CFECBB4E4128A94EB5 /* Eureka-umbrella.h */,
+				AA0E47436A506A316565C112A7A1E804 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Eureka";
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52C9FA04E5A891D86DE276A3CD05ED4F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52C9FA04E5A891D86DE276A3CD05ED4F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				DE4167F63636565722E5400056946C02 /* Foundation.framework */,
+				D535ADC5B614C5832BBC04C21A9411A0 /* QuartzCore.framework */,
+				4F7CC788C37999CEDD14708117BEC018 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5AD473946C23CB131B4BA4B442C5FDBE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A134669E26ADD8A9DB48AD50B66F5033 /* Pods-RESideSwift */,
+				9897EE0D00FB724EE824F27E1F32E79A /* Pods-RESideSwiftTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5BEAFEF7908C21A46A08160D19382BF9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B98FDB57E2DA289EDCA7835802C08E1 /* Info.plist */,
+				629D2C14E29C5D4AC6203F666E125FB6 /* RESideMenu.modulemap */,
+				B967A9AD8152C791A2CBC3D6EE0DE9CD /* RESideMenu.xcconfig */,
+				BE037DA00E391DBB61A905CBC3828378 /* RESideMenu-dummy.m */,
+				8B800CE4B532AB9EAA6B0975D675A1E9 /* RESideMenu-prefix.pch */,
+				6D737B4099E5125601AFBDF003B3B9FC /* RESideMenu-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RESideMenu";
+			sourceTree = "<group>";
+		};
+		645E68B1CF599AC982432D152CDE628A /* Pulsar */ = {
+			isa = PBXGroup;
+			children = (
+				B3C137F2368070C0BFDA08E580265C8A /* CALayer+Pulsar.swift */,
+				FDAAEFCA19398F0E64AD6CE2E72E2A28 /* Support Files */,
+			);
+			path = Pulsar;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				864EF6D4BD696D3546B6EC806785C7EC /* Pods */,
+				04F7CC343764667D3EDB32102171889C /* Products */,
+				5AD473946C23CB131B4BA4B442C5FDBE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		864EF6D4BD696D3546B6EC806785C7EC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BAFF4513D7F2B10E2E57E001B00279B0 /* Eureka */,
+				645E68B1CF599AC982432D152CDE628A /* Pulsar */,
+				982857090A0FD45349CA0E4026193B1D /* RESideMenu */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		982857090A0FD45349CA0E4026193B1D /* RESideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				47F112CAD39A9422E612CE285D58D4EA /* RECommonFunctions.h */,
+				68C871CF18FFEE31D79F3EFD98C77C2E /* RECommonFunctions.m */,
+				B40FF63800D86ABB4E777ED90543ED65 /* RESideMenu.h */,
+				85856897F7CE2D5486163BAAF1760ABC /* RESideMenu.m */,
+				A4549AEB2F2431C4E55B168B35FC1871 /* UIViewController+RESideMenu.h */,
+				410212AEE524AAE6DB7E6A560F4ACA86 /* UIViewController+RESideMenu.m */,
+				5BEAFEF7908C21A46A08160D19382BF9 /* Support Files */,
+			);
+			path = RESideMenu;
+			sourceTree = "<group>";
+		};
+		9897EE0D00FB724EE824F27E1F32E79A /* Pods-RESideSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				142C91760DEF2C5262EE6FC94D8377C4 /* Info.plist */,
+				83CD6DA8F6F6F2059DCD0C44127B6054 /* Pods-RESideSwiftTests.modulemap */,
+				95C34C180ABB4E9DBD2A17949C8C1DAE /* Pods-RESideSwiftTests-acknowledgements.markdown */,
+				CE8B97DB88B7838AD25BB4C6BCE188A7 /* Pods-RESideSwiftTests-acknowledgements.plist */,
+				E86B87253596D502AB72300C6071EC5E /* Pods-RESideSwiftTests-dummy.m */,
+				9331AE043F0115335D41969CC0C55D49 /* Pods-RESideSwiftTests-frameworks.sh */,
+				F924AB1A64371AA2B66882CB9374B3E0 /* Pods-RESideSwiftTests-resources.sh */,
+				77CC7C1497571BA6C9C7F3B814DB6FDE /* Pods-RESideSwiftTests-umbrella.h */,
+				68FC9BF15B156C2F9BE59B5E0B77BFA3 /* Pods-RESideSwiftTests.debug.xcconfig */,
+				0D95291992031AA73329BD1A96C1918F /* Pods-RESideSwiftTests.release.xcconfig */,
+			);
+			name = "Pods-RESideSwiftTests";
+			path = "Target Support Files/Pods-RESideSwiftTests";
+			sourceTree = "<group>";
+		};
+		A134669E26ADD8A9DB48AD50B66F5033 /* Pods-RESideSwift */ = {
+			isa = PBXGroup;
+			children = (
+				244EBF44B61BFD4FE7D7C2652A6D32A6 /* Info.plist */,
+				06B488F7F1289D8FBC83FB905F0D901B /* Pods-RESideSwift.modulemap */,
+				53D0676957D65A92E2DBB4849C5D71CF /* Pods-RESideSwift-acknowledgements.markdown */,
+				08F152FFE818EE9EBD48DBE51743E1B8 /* Pods-RESideSwift-acknowledgements.plist */,
+				770B46C7463F518DB4D1A7C6FC1BEE1B /* Pods-RESideSwift-dummy.m */,
+				3CA693125A5EF43A3377DA99F54C3715 /* Pods-RESideSwift-frameworks.sh */,
+				A6E75DF3B938A46F73AB0FC74C35AFEA /* Pods-RESideSwift-resources.sh */,
+				3D7A0A289AC2FF49DCCC8BF90A8A8B7A /* Pods-RESideSwift-umbrella.h */,
+				31AECC15AB8FED9E6EA11C93E768F34C /* Pods-RESideSwift.debug.xcconfig */,
+				25A1B6ED10E64D4DAF82854FA89FE9F0 /* Pods-RESideSwift.release.xcconfig */,
+			);
+			name = "Pods-RESideSwift";
+			path = "Target Support Files/Pods-RESideSwift";
+			sourceTree = "<group>";
+		};
+		BAFF4513D7F2B10E2E57E001B00279B0 /* Eureka */ = {
+			isa = PBXGroup;
+			children = (
+				C2F5231CE3EA0C2A088B730CA228A7B5 /* Cells.swift */,
+				F9208B373C5A691D68A46D585AD97C45 /* Controllers.swift */,
+				23728B2FBDB21DAB7FFB97AACEE2BCA0 /* Core.swift */,
+				9F501037D4FF0844CDD84E2D18F93095 /* Helpers.swift */,
+				F02B6A216771AAD58A863C30B50205BF /* Rows.swift */,
+				0E3A779251FCE6F8A18AEFA49C805C08 /* Support Files */,
+			);
+			path = Eureka;
+			sourceTree = "<group>";
+		};
+		FDAAEFCA19398F0E64AD6CE2E72E2A28 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				10243FB0B6C4D4A893F989B9B41F682C /* Info.plist */,
+				12AA50C698196C33D3270F3818E23048 /* Pulsar.modulemap */,
+				04022FD72BD9A144BDB9692F5CEED3E9 /* Pulsar.xcconfig */,
+				7AB643B64AA84A6970D9252D46426475 /* Pulsar-dummy.m */,
+				9183D21891A89C09AC67913E272256F1 /* Pulsar-prefix.pch */,
+				9C932771917FC949920425E21EFDF10C /* Pulsar-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pulsar";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1ECCB1B15CB2B37DFBB027DA897C5683 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC9B86CEC9854996E2DE962716B842B2 /* Pulsar-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CC1CBF78A54DC71786C87D732EEC6F8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E31CA60C156F55B93DB14E43D296396 /* Pods-RESideSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA218788F353BDC541978D137295281A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E52D5180B8080C290DB1BE94C2B97172 /* Eureka-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0D44C311C2A36EEA75C64CFF222D134 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E01B988AB12EC5F9B494B977456F043C /* RECommonFunctions.h in Headers */,
+				BD764CC24DE381F02ACDD078B9B396AF /* RESideMenu-umbrella.h in Headers */,
+				1740C04CD9E9C7DF75057C425011D55B /* RESideMenu.h in Headers */,
+				0B99166FA47E0681292C569105878EF3 /* UIViewController+RESideMenu.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B92F22505000E5A5B0DC8C124784296C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBFF81E4345570E271F04B084810CC7A /* Pods-RESideSwiftTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		040C6B7B8C454BCD5D7C57DAC66C6946 /* RESideMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC2598820C297F462CFC3711A511F3C4 /* Build configuration list for PBXNativeTarget "RESideMenu" */;
+			buildPhases = (
+				486DCAD2A63A490FCDD07586C739EC11 /* Sources */,
+				6272A03F7DF34E34EFDDAEF314C41754 /* Frameworks */,
+				B0D44C311C2A36EEA75C64CFF222D134 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RESideMenu;
+			productName = RESideMenu;
+			productReference = 440681E9D0D6213CB16E6FC116C7CC2C /* RESideMenu.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		31EF08F3444DCD2B169D92269C5BCD3D /* Eureka */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE81CBA7FE9E61766B15466DE5A60C88 /* Build configuration list for PBXNativeTarget "Eureka" */;
+			buildPhases = (
+				A06E40ECE695337D407598D813197C72 /* Sources */,
+				BD02C174EF4E9DFDD57459A0C1F42C14 /* Frameworks */,
+				AA218788F353BDC541978D137295281A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Eureka;
+			productName = Eureka;
+			productReference = 24EC62DED5F18CB1E4D22BA3E8166168 /* Eureka.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4CD8BBE686374AE523AF3C6828185C83 /* Pods-RESideSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A422559811F95F66F4BCE6488F730DDD /* Build configuration list for PBXNativeTarget "Pods-RESideSwift" */;
+			buildPhases = (
+				AB34F18E2020C3288A03B19443A034EB /* Sources */,
+				923199D1A306433CB96562E7D537FC26 /* Frameworks */,
+				2CC1CBF78A54DC71786C87D732EEC6F8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E151B1F6EC845DC9C346AE0D8E86303 /* PBXTargetDependency */,
+				EF89E544C3E74D0656654B6BB48ECE5A /* PBXTargetDependency */,
+				92A23A4C21D6FA206D87F724DED21FC2 /* PBXTargetDependency */,
+			);
+			name = "Pods-RESideSwift";
+			productName = "Pods-RESideSwift";
+			productReference = 267E90D2F3F32D1AF765C47F62D741FE /* Pods_RESideSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AF4D0F9B023C385206B865EB1026BE0B /* Pods-RESideSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC0ED9A6B76CAF3FAF9799778A088E0A /* Build configuration list for PBXNativeTarget "Pods-RESideSwiftTests" */;
+			buildPhases = (
+				AA97394D3341DF0A48C6B6CABF51BB5B /* Sources */,
+				42A840010D6BAC84EAD9A3FC458280D7 /* Frameworks */,
+				B92F22505000E5A5B0DC8C124784296C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-RESideSwiftTests";
+			productName = "Pods-RESideSwiftTests";
+			productReference = 7DFCE7ADA70B10E1A71D9B76FA0A6F45 /* Pods_RESideSwiftTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F89148928AAC6872B050E828C9FBF97B /* Pulsar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 000FF9232E520E828A8EF5A23D25F9AC /* Build configuration list for PBXNativeTarget "Pulsar" */;
+			buildPhases = (
+				AC251957A16142CC13CDD44B7E8C1505 /* Sources */,
+				18302224159023F187810A067F6C1CB0 /* Frameworks */,
+				1ECCB1B15CB2B37DFBB027DA897C5683 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pulsar;
+			productName = Pulsar;
+			productReference = 3D4679B958CE18A9997F78F8C9373098 /* Pulsar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 04F7CC343764667D3EDB32102171889C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31EF08F3444DCD2B169D92269C5BCD3D /* Eureka */,
+				4CD8BBE686374AE523AF3C6828185C83 /* Pods-RESideSwift */,
+				AF4D0F9B023C385206B865EB1026BE0B /* Pods-RESideSwiftTests */,
+				F89148928AAC6872B050E828C9FBF97B /* Pulsar */,
+				040C6B7B8C454BCD5D7C57DAC66C6946 /* RESideMenu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		486DCAD2A63A490FCDD07586C739EC11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACB941E434860F9AA02E519ABB5FCF50 /* RECommonFunctions.m in Sources */,
+				5468FA3766215B346E3728A6905A31A2 /* RESideMenu-dummy.m in Sources */,
+				D2B89FE73AD36B866DF51C59CF9207DE /* RESideMenu.m in Sources */,
+				A7A5214D55F3D6E2460B428B43FE552E /* UIViewController+RESideMenu.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A06E40ECE695337D407598D813197C72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CC8D349E1F05E10C3FBEB82314971FE /* Cells.swift in Sources */,
+				32BC28F2D8F762BB77955237D0B1733A /* Controllers.swift in Sources */,
+				F4549889D2DD51FD242EF19E8DE29A7A /* Core.swift in Sources */,
+				9F55540302E9D0F8DBE8C934DCF64838 /* Eureka-dummy.m in Sources */,
+				376DCCF04020C1BF909E1C9434160EC9 /* Helpers.swift in Sources */,
+				94026EE895026B940FB818A7E6538B50 /* Rows.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA97394D3341DF0A48C6B6CABF51BB5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD4A868C3E802768D1C5E4D1AA9F8CC4 /* Pods-RESideSwiftTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB34F18E2020C3288A03B19443A034EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				008307EA55F84C8512852B442868BF5C /* Pods-RESideSwift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC251957A16142CC13CDD44B7E8C1505 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A38B184CA7E33092C7E94F488E0EE11C /* CALayer+Pulsar.swift in Sources */,
+				2B339F1270B04712DDC57639D3E858EC /* Pulsar-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E151B1F6EC845DC9C346AE0D8E86303 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Eureka;
+			target = 31EF08F3444DCD2B169D92269C5BCD3D /* Eureka */;
+			targetProxy = A26458BCBE89A20DAF4AD3F93581128E /* PBXContainerItemProxy */;
+		};
+		92A23A4C21D6FA206D87F724DED21FC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RESideMenu;
+			target = 040C6B7B8C454BCD5D7C57DAC66C6946 /* RESideMenu */;
+			targetProxy = 276CB827326EDB318B0DC7C78558AFE3 /* PBXContainerItemProxy */;
+		};
+		EF89E544C3E74D0656654B6BB48ECE5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Pulsar;
+			target = F89148928AAC6872B050E828C9FBF97B /* Pulsar */;
+			targetProxy = 5DD9EF21B28BBC08F248C1497E0F9A55 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01B0525C3AAA04F1D10E2C934631B736 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BDF84BD62A9E7483ED7F7BE4503E286 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68FC9BF15B156C2F9BE59B5E0B77BFA3 /* Pods-RESideSwiftTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RESideSwiftTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RESideSwiftTests/Pods-RESideSwiftTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RESideSwiftTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		403FE04D1EDE95A867BA70E7F0091EC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04022FD72BD9A144BDB9692F5CEED3E9 /* Pulsar.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pulsar/Pulsar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pulsar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pulsar/Pulsar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Pulsar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		44AAECEC20602D2EC9AB7FC7BF9FB5A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B967A9AD8152C791A2CBC3D6EE0DE9CD /* RESideMenu.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RESideMenu/RESideMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RESideMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RESideMenu/RESideMenu.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = RESideMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		54E3A077B50E60F2EB7DCCC437EC6BC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2164B2D70C343861926FE8E7CB9913D7 /* Eureka.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Eureka/Eureka-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Eureka/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Eureka/Eureka.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Eureka;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5BB8451DA80CF052FE99C5C8160EB0F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B967A9AD8152C791A2CBC3D6EE0DE9CD /* RESideMenu.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RESideMenu/RESideMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RESideMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RESideMenu/RESideMenu.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = RESideMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		648227A781094DA8868396AA037C1223 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D95291992031AA73329BD1A96C1918F /* Pods-RESideSwiftTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RESideSwiftTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RESideSwiftTests/Pods-RESideSwiftTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RESideSwiftTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		842E7DEA84711ED87E1E4EBC9D618B8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31AECC15AB8FED9E6EA11C93E768F34C /* Pods-RESideSwift.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RESideSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RESideSwift/Pods-RESideSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RESideSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		98ED92EFB6AE696F95AFD5536BC29EE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2164B2D70C343861926FE8E7CB9913D7 /* Eureka.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Eureka/Eureka-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Eureka/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Eureka/Eureka.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Eureka;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A37822B79A6217169456B6E4E5834FD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DDE48A9CE4718CC6A73B8C66C9F22C79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04022FD72BD9A144BDB9692F5CEED3E9 /* Pulsar.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pulsar/Pulsar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pulsar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pulsar/Pulsar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Pulsar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FD275F8B9EE8894B1B9F1470B66799D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25A1B6ED10E64D4DAF82854FA89FE9F0 /* Pods-RESideSwift.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RESideSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RESideSwift/Pods-RESideSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RESideSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		000FF9232E520E828A8EF5A23D25F9AC /* Build configuration list for PBXNativeTarget "Pulsar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				403FE04D1EDE95A867BA70E7F0091EC9 /* Debug */,
+				DDE48A9CE4718CC6A73B8C66C9F22C79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A37822B79A6217169456B6E4E5834FD9 /* Debug */,
+				01B0525C3AAA04F1D10E2C934631B736 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A422559811F95F66F4BCE6488F730DDD /* Build configuration list for PBXNativeTarget "Pods-RESideSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				842E7DEA84711ED87E1E4EBC9D618B8A /* Debug */,
+				FD275F8B9EE8894B1B9F1470B66799D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC0ED9A6B76CAF3FAF9799778A088E0A /* Build configuration list for PBXNativeTarget "Pods-RESideSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BDF84BD62A9E7483ED7F7BE4503E286 /* Debug */,
+				648227A781094DA8868396AA037C1223 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE81CBA7FE9E61766B15466DE5A60C88 /* Build configuration list for PBXNativeTarget "Eureka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54E3A077B50E60F2EB7DCCC437EC6BC4 /* Debug */,
+				98ED92EFB6AE696F95AFD5536BC29EE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC2598820C297F462CFC3711A511F3C4 /* Build configuration list for PBXNativeTarget "RESideMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BB8451DA80CF052FE99C5C8160EB0F6 /* Debug */,
+				44AAECEC20602D2EC9AB7FC7BF9FB5A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

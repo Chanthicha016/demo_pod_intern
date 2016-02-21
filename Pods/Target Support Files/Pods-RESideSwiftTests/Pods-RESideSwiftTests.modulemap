@@ -1,0 +1,6 @@
+framework module Pods_RESideSwiftTests {
+  umbrella header "Pods-RESideSwiftTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

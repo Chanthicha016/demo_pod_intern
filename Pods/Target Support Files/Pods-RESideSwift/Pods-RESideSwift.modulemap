@@ -1,0 +1,6 @@
+framework module Pods_RESideSwift {
+  umbrella header "Pods-RESideSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}
