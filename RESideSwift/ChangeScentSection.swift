@@ -6,11 +6,11 @@
 //  Copyright © 2559 FaiFai. All rights reserved.
 //
 
-import Foundation
-
-
-struct ChangeScentSection {
-    var ScentName = [String]()
-    var ScentLevel = [String]()
-    
-}
+//import Foundation
+//
+//
+//struct ChangeScentSection {
+//    var ScentName = [String]()
+//    var ScentLevel = [String]()
+//    
+//}

@@ -13,17 +13,17 @@ import CoreLocation
 
 class ChangeScentViewController: FormViewController {
 
-    var ScentName = String()
-    var ScantLevel = String()
-    
-    var ScenDatatName : [String] = []
-    var ScentDataLevel : [String] = []
-    
+//    var ScentName = String()
+//    var ScantLevel = String()
+//    
+//    var ScenDatatName : [String] = []
+//    var ScentDataLevel : [String] = []
+//    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        ScentName = ScenDatatName.joinWithSeparator(" ")
-        ScantLevel = ScentDataLevel.joinWithSeparator(" ")
+//        ScentName = ScenDatatName.joinWithSeparator(" ")
+//        ScantLevel = ScentDataLevel.joinWithSeparator(" ")
         
         form =
             Section()
@@ -32,13 +32,15 @@ class ChangeScentViewController: FormViewController {
                 $0.title = "Scent Name"
                 $0.selectorTitle = "Scent Name"
                 $0.options = ["Peppermint", "Lemon", "Melaleuca"]
-                $0.value = ScentName
+                //$0.value = ScentName
+                $0.value = "Peppermint"
             }
             <<< PushRow<String>() {
                 $0.title = "Intensity"
                 $0.selectorTitle = "Intensity"
                 $0.options = ["Heavy", "Medium", "Light"]
-                $0.value = ScantLevel
+                //$0.value = ScantLevel
+                $0.value = "Heavy"
         }
     }
     override func didReceiveMemoryWarning() {

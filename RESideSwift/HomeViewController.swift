@@ -9,14 +9,14 @@
 import UIKit
 import Pulsar
 
-class HomeViewController: UITableViewController {
+class HomeViewController: UIViewController {
     
     var textArray = [String]()
     var textLevel = [String]()
-    
-    var ScentNameArray = [ChangeScentSection]()
-    var ScentSupportData = [String]()
-    var ScentSupportData02 = [String]()
+//
+//    var ScentNameArray = [ChangeScentSection]()
+//    var ScentSupportData = [String]()
+//    var ScentSupportData02 = [String]()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,23 +24,23 @@ class HomeViewController: UITableViewController {
         textLevel = ["Heavy","Light","Medium"]
         timeInterval = userStartTime
         
-        ScentNameArray = [ChangeScentSection(ScentName: ["N1"] , ScentLevel: ["L1"]),
-                    ChangeScentSection(ScentName: ["N2"] , ScentLevel: ["L2"]),
-                    ChangeScentSection(ScentName: ["N3"] , ScentLevel: ["L3"])]
+//        ScentNameArray = [ChangeScentSection(ScentName: ["N1"] , ScentLevel: ["L1"]),
+//                    ChangeScentSection(ScentName: ["N2"] , ScentLevel: ["L2"]),
+//                    ChangeScentSection(ScentName: ["N3"] , ScentLevel: ["L3"])]
     }
     
     //table
     @IBOutlet weak var mainTable: UITableView!
     var dataSource:NSMutableArray = NSMutableArray()
     
-    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         return 1
     }
-    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return textArray.count
     }
     
-    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
         let cell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath) as! CustomerCell
         
@@ -50,23 +50,23 @@ class HomeViewController: UITableViewController {
         return cell
     }
     
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        
-        let indexPath:NSIndexPath = self.tableView.indexPathForSelectedRow!
-        
-//        let DestViewController = segue.destinationViewController as! ChangeScentViewController
-        
-        
-        
-//        var ScentNameArray02 : ChangeScentSection
-      
-        ScentNameArray02 = ScentNameArray[indexPath.row]
-     
-//        DestViewController.ScenDatatName = ScentNameArray02
-        
-        
-
-    }
+//    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+//        
+////        let indexPath:NSIndexPath = self.tableView.indexPathForSelectedRow!
+//        
+////        let DestViewController = segue.destinationViewController as! ChangeScentViewController
+//        
+//        
+//        
+////        var ScentNameArray02 : ChangeScentSection
+//      
+////        ScentNameArray02 = ScentNameArray[indexPath.row]
+//     
+////        DestViewController.ScenDatatName = ScentNameArray02
+//        
+//        
+//
+//    }
     
     
     //timer
