@@ -14,6 +14,9 @@ class HomeViewController: UITableViewController {
     var textArray = [String]()
     var textLevel = [String]()
     
+    var ScentNameRecrive = String()
+    var ScentLevelRecrive = String()
+    
     var scentname01 = String()
     var scentname02 = String()
     var scentname03 = String()
@@ -55,8 +58,7 @@ class HomeViewController: UITableViewController {
      override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return textArray.count
     }
-    
-     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
         let cell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath) as! CustomerCell
         

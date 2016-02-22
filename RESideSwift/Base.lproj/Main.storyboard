@@ -83,7 +83,7 @@
                                         <connections>
                                             <outlet property="Plevel" destination="Cd4-gv-aN3" id="HIS-QO-PSc"/>
                                             <outlet property="Pname" destination="eeq-5D-rpN" id="nWU-Jh-CFm"/>
-                                            <segue destination="lo0-PH-eZL" kind="push" id="4Bb-hQ-j36"/>
+                                            <segue destination="lo0-PH-eZL" kind="push" identifier="senddata" id="4Bb-hQ-j36"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
