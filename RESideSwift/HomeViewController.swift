@@ -50,22 +50,35 @@ class HomeViewController: UIViewController {
         return cell
     }
     
+    
+//    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+//        
+//        var cell: UITableViewCell? = tableView.dequeueReusableCellWithIdentifier("cell id")
+//        
+//        if (cell == nil) {
+//            cell = MyCustomCell()
+//        }
+//        
+//        (cell as MyCustomCell).label1.text = "Some text"
+//        (cell as MyCustomCell).label2.text = "Some text"
+//        (cell as MyCustomCell).label3.text = "Some text"
+//        
+//        return cell;
+//    }
+    
+    
+
 //    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
 //        
 ////        let indexPath:NSIndexPath = self.tableView.indexPathForSelectedRow!
 //        
 ////        let DestViewController = segue.destinationViewController as! ChangeScentViewController
-//        
-//        
-//        
+
 ////        var ScentNameArray02 : ChangeScentSection
 //      
 ////        ScentNameArray02 = ScentNameArray[indexPath.row]
 //     
 ////        DestViewController.ScenDatatName = ScentNameArray02
-//        
-//        
-//
 //    }
     
     
