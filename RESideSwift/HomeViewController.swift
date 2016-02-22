@@ -9,78 +9,83 @@
 import UIKit
 import Pulsar
 
-class HomeViewController: UIViewController {
+class HomeViewController: UITableViewController {
     
     var textArray = [String]()
     var textLevel = [String]()
-//
-//    var ScentNameArray = [ChangeScentSection]()
-//    var ScentSupportData = [String]()
-//    var ScentSupportData02 = [String]()
+    
+    var scentname01 = String()
+    var scentname02 = String()
+    var scentname03 = String()
+    
+    var scentlevel01 = String()
+    var scentlevel02 = String()
+    var scentlevel03 = String()
+    
+    var ScentArray = [ChangeScentSection]()
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         textArray = ["Papermint","Lemon","Cocoa"]
         textLevel = ["Heavy","Light","Medium"]
         timeInterval = userStartTime
         
-//        ScentNameArray = [ChangeScentSection(ScentName: ["N1"] , ScentLevel: ["L1"]),
-//                    ChangeScentSection(ScentName: ["N2"] , ScentLevel: ["L2"]),
-//                    ChangeScentSection(ScentName: ["N3"] , ScentLevel: ["L3"])]
+        scentname01 = textArray[0]
+        scentname02 = textArray[1]
+        scentname03 = textArray[2]
+        
+        scentlevel01 = textLevel[0]
+        scentlevel02 = textLevel[1]
+        scentlevel03 = textLevel[2]
+        
+        ScentArray = [ChangeScentSection(ScentName: [scentname01],ScentLevel: [scentlevel01]),
+        ChangeScentSection(ScentName: [scentname02],ScentLevel: [scentlevel02]),
+        ChangeScentSection(ScentName: [scentname03],ScentLevel: [scentlevel03])]
+
     }
     
     //table
     @IBOutlet weak var mainTable: UITableView!
     var dataSource:NSMutableArray = NSMutableArray()
     
-     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         return 1
     }
-     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return textArray.count
     }
     
-     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
         let cell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath) as! CustomerCell
+        
+        
         
         cell.Pname.text = textArray[indexPath.row]
         cell.Plevel.text = textLevel[indexPath.row]
         
+        
+        
+        self.mainTable.reloadData()
         return cell
     }
     
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        
+        let indextPath : NSIndexPath = self.tableView.indexPathForSelectedRow!
+        
+        let DestViewController = segue.destinationViewController as! ChangeScentViewController
     
-//    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-//        
-//        var cell: UITableViewCell? = tableView.dequeueReusableCellWithIdentifier("cell id")
-//        
-//        if (cell == nil) {
-//            cell = MyCustomCell()
-//        }
-//        
-//        (cell as MyCustomCell).label1.text = "Some text"
-//        (cell as MyCustomCell).label2.text = "Some text"
-//        (cell as MyCustomCell).label3.text = "Some text"
-//        
-//        return cell;
-//    }
-    
-    
+        var ScentArrayTwo : ChangeScentSection
+        
+        ScentArrayTwo = ScentArray[indextPath.row]
+        
+        DestViewController.ScenDatatName = ScentArrayTwo.ScentName
+        DestViewController.ScentDataLevel = ScentArrayTwo.ScentLevel
 
-//    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-//        
-////        let indexPath:NSIndexPath = self.tableView.indexPathForSelectedRow!
-//        
-////        let DestViewController = segue.destinationViewController as! ChangeScentViewController
+    }
 
-////        var ScentNameArray02 : ChangeScentSection
-//      
-////        ScentNameArray02 = ScentNameArray[indexPath.row]
-//     
-////        DestViewController.ScenDatatName = ScentNameArray02
-//    }
-    
     
     //timer
     

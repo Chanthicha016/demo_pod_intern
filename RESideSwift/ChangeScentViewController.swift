@@ -13,17 +13,17 @@ import CoreLocation
 
 class ChangeScentViewController: FormViewController {
 
-//    var ScentName = String()
-//    var ScantLevel = String()
-//    
-//    var ScenDatatName : [String] = []
-//    var ScentDataLevel : [String] = []
-//    
+    var ScentName = String()
+    var ScantLevel = String()
+    
+    var ScenDatatName = [String]()
+    var ScentDataLevel = [String]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-//        ScentName = ScenDatatName.joinWithSeparator(" ")
-//        ScantLevel = ScentDataLevel.joinWithSeparator(" ")
+        ScentName = ScenDatatName.joinWithSeparator("")
+        ScantLevel = ScentDataLevel.joinWithSeparator("")
         
         form =
             Section()
@@ -32,15 +32,36 @@ class ChangeScentViewController: FormViewController {
                 $0.title = "Scent Name"
                 $0.selectorTitle = "Scent Name"
                 $0.options = ["Peppermint", "Lemon", "Melaleuca"]
-                //$0.value = ScentName
-                $0.value = "Peppermint"
+                $0.value = ScentName
             }
+                .onChange { [weak self] in
+                    if $0.value! == "Peppermint" {
+                        self?.ScentName = "Peppermint"
+                    }
+                    else if $0.value! == "Lemon" {
+                        self?.ScentName = "Lemon"
+                    }
+                    else if $0.value! == "Melaleuca" {
+                        self?.ScentName = "Melaleuca"
+                    }
+            }
+
             <<< PushRow<String>() {
                 $0.title = "Intensity"
                 $0.selectorTitle = "Intensity"
                 $0.options = ["Heavy", "Medium", "Light"]
-                //$0.value = ScantLevel
-                $0.value = "Heavy"
+                $0.value = ScantLevel
+        }
+                .onChange { [weak self] in
+                    if $0.value! == "Heavy" {
+                        self?.ScantLevel = "Heavy"
+                    }
+                    else if $0.value! == "Medium" {
+                        self?.ScantLevel = "Medium"
+                    }
+                    else if $0.value! == "Light" {
+                        self?.ScantLevel = "Light"
+                    }
         }
     }
     override func didReceiveMemoryWarning() {
