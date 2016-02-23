@@ -10,12 +10,25 @@ import UIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
+    
+    let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
 
     var window: UIWindow?
+        
+    }
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        
+        var textArray = [String]()
+        textArray = ["Papermint","Lemon","Cocoa"]
+        
+        var textLevel = [String]()
+        textLevel = ["Heavy","Light","Medium"]
+        
+        
         return true
     }
 

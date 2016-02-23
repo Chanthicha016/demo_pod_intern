@@ -11,11 +11,8 @@ import Pulsar
 
 class HomeViewController: UITableViewController {
     
-    var textArray = [String]()
-    var textLevel = [String]()
-    
-    var ScentNameRecrive = String()
-    var ScentLevelRecrive = String()
+    var ScentNameRecrive = [String]()
+    var ScentLevelRecrive = [String]()
     
     var scentname01 = String()
     var scentname02 = String()
@@ -30,8 +27,6 @@ class HomeViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        textArray = ["Papermint","Lemon","Cocoa"]
-        textLevel = ["Heavy","Light","Medium"]
         timeInterval = userStartTime
         
         scentname01 = textArray[0]
